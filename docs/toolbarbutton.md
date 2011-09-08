@@ -85,5 +85,13 @@ The id of the element which the toolbar button should be inserted before.
 If `forceMove` is `false`, then the move will only occur if the toolbar button
 is not already being used. If `true`, then the move will happen no matter where
 the toolbar button is.
+
+</api>
+<api name="updateAttributes">
+@method
+Allows to update toolbar button attributes on demand. Example:
+
+@param attributes {Object}
+- Key/value pairs where key is attribute name and value is its new value.
 </api>
 </api>
